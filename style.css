@@ -1,0 +1,166 @@
+
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+        color: #848c99;
+    }
+.navbar{
+    display: flex;
+    background-color: rgb(89, 209, 218);
+    width: 100%;
+    
+}
+.navbar h2{
+    color: black;
+}
+.pic{
+    width: 25%;
+    height: 300px;
+}
+  img{
+    width: 100%;
+    height: 300px;
+    padding: -79px;
+    border-radius: 2044px;
+  }
+  .main{
+      width: 100%;
+      
+      text-align: center;
+  }
+  .main.upper{
+      line-height: 10px;
+      margin-top: 50px;
+  }
+  hr{
+      background-color: rgb(8, 83, 73);
+  }
+  .main.lower{
+      margin-top: 52px;
+    line-height: 2px;
+  }
+  .main.contactinfo{
+      display: flex;
+      text-transform: lowercase;
+      justify-content: space-evenly;
+  }
+.container.fluid{
+    display: flex;
+}
+.leftside{
+    text-transform: uppercase;
+    width: 25%;
+    margin-top: 0px;
+    margin: 10px;
+    font-weight: 100;
+    background-color: #e0dede;
+    
+}
+.leftside.h5{
+    color: #848c99;
+}
+ul{
+    list-style: none;
+}
+ul li{
+    line-height: 2px;
+    margin-top: 10px;
+}
+ul li h4{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+ul li h5{
+    color: rgb(63, 61, 61);
+}
+
+.title{
+    
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 1px;
+    margin-bottom: 1px;
+}
+
+
+.rightside{
+    margin: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    
+}
+
+.rightside h2{
+    text-transform: uppercase;
+    
+}
+.rightside p{
+    margin-top: 2px;
+    line-height: 25px;
+}
+.rightside.profile1{
+    margin-top: 50px;
+    text-align: center;
+}
+.rightside .internship{
+    margin-top: 50px;
+}
+.rightside.internship p{
+    line-height:25px ;
+    margin-top: 5px;
+}
+
+.rightside.projects{
+    margin-top: 50px;
+}
+
+.rightside.projects.proj{
+    line-height:25px ;
+    margin-top: 5px;   
+}
+.p1{
+    color: #848c99;
+}
+.about .box{
+    display: flex;
+    flex-direction: row;
+    margin: 20px 0;
+}
+.skills{
+    line-height: 5px;
+    margin-top: 50px;
+}
+
+.skills .content{
+    margin-top: 50px;
+}
+.skills .box{
+    position: relative;
+    width: 100%;
+    display: grid;
+    grid-template-columns:150px 1fr;
+    justify-content: center;
+    align-items: center;
+}
+.skills .box h4{
+    text-transform: uppercase;
+    color: #848c99;
+    font-weight: 500;
+
+}
+.skills .box  .percent{
+    position: relative;
+    width: 100%;
+    height: 10px;
+    background: #b1afaf;
+}
+
+.skills .box  .percent div{
+    position: absolute;
+    top:0;
+    left: 0;
+    height: 100%;
+    background: #2f3233;
+    
+}
